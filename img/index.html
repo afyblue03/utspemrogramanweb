@@ -1,0 +1,131 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bebee — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />  <style>
+    /* gradient background */
+    body {
+      background: linear-gradient(135deg, #dce9ff, #bcd4ff, #99bbff, #7aa6ff);
+      background-attachment: fixed;
+    }
+
+    /* alternating sections */
+    .project.odd {
+      background: linear-gradient(135deg, #e8f0ff, #d9e7ff);
+      padding: 50px 0;
+    }
+
+    .project.even {
+      background: #f8faff;
+      padding: 50px 0;
+    }
+
+    .project .row {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+    }
+
+    .project .col {
+      flex: 1;
+    }
+
+    /* reverse layout for even sections */
+    .project.even .row {
+      flex-direction: row-reverse;
+    }
+  </style></head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#contact">contact</a></li>
+      <li><a href="#projects">works</a></li>
+      <li><a href="#experience">experience</a></li>
+      <li class="empty"></li>
+      <li><a href="https://www.instagram.com/afiibluu" target="_blank">instagram</a></li>
+      <li><a href="https://x.com/Afii_bluu" target="_blank">twitter</a></li>
+    </ul>
+  </nav>  <header class="hero">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1>Hi, I'm<br>Sitti Nur Afifah</h1>
+          <ul>
+            <li>_Information Systems student</li>
+            <li>_Interested in Artificial Intelligence</li>
+            <li>_Enjoys drawing and design</li>
+          </ul>
+          <a href="#projects" class="button">View My Projects</a>
+        </div>
+        <div class="col">
+          <img src="img/fufa.jpg" alt="Sitti Nur Afifah" class="intro-img" />
+          <small>Photo: Sitti Nur Afifah</small>
+        </div>
+      </div>
+    </div>
+  </header>  <section id="projects" class="skills container">
+    <ul>
+      <li>01_Web Design</li>
+      <li>02_HTML & CSS</li>
+      <li>03_UI/UX Design</li>
+      <li>04_Front-End Development</li>
+      <li>05_Graphic Design</li>
+    </ul>
+  </section>  <!-- PROJECT 1 (ODD) -->  <section class="project odd container">
+    <div class="row">
+      <div class="col">
+        <img src="img/foto1.jpg" alt="Digital Wallet App Design" />
+        <small>Digital Wallet App Design</small>
+      </div>
+      <div class="col">
+        <h2>Digital Wallet App Design</h2>
+        <p>This project focuses on designing a digital wallet application interface for students. The interface includes scanning features, balance information, transaction history, and user-friendly layouts.</p>
+        <a class="button ghost" href="detail1.html">View Details</a>
+      </div>
+    </div>
+  </section>  <!-- PROJECT 2 (EVEN) -->  <section class="project even container">
+    <div class="row">
+      <div class="col">
+        <img src="img/foto2.jpg" alt="Learning Web Development" />
+        <small>Learning Web Development</small>
+      </div>
+      <div class="col">
+        <h2>Web Development Study</h2>
+        <p>This project documents the process of learning HTML, CSS, and JavaScript. It includes experiments with layout, styling, and responsiveness while developing functional web pages.</p>
+        <a class="button ghost" href="detail2.html">View Details</a>
+      </div>
+    </div>
+  </section>  <!-- PROJECT 3 (ODD) -->  <section class="project odd container">
+    <div class="row">
+      <div class="col">
+        <img src="img/foto3.jpg" alt="Personal Portfolio Website" />
+        <small>Personal Portfolio Website</small>
+      </div>
+      <div class="col">
+        <h2>Personal Portfolio Website</h2>
+        <p>A personal portfolio website built to showcase profile information, project works, and UI/UX experiments. Designed using a simple, clean, and responsive layout.</p>
+        <a class="button ghost" href="detail3.html">View Details</a>
+      </div>
+    </div>
+  </section>  <!-- PROJECT 4 (EVEN) -->  <section class="project even container">
+    <div class="row">
+      <div class="col">
+        <img src="img/foto4.jpg" alt="Illustration Practice" />
+        <small>Illustration Sketch Practice</small>
+      </div>
+      <div class="col">
+        <h2>Illustration & Sketch Practice</h2>
+        <p>A drawing practice project focusing on character sketches, linework, pose studies, and strengthening visual observation skills.</p>
+        <a class="button ghost" href="detail4.html">View Details</a>
+      </div>
+    </div>
+  </section>  <footer id="contact" class="footer">
+    <div class="container">
+      <h2>Any Questions?<br>Find Me Here</h2>
+      <a href="mailto:stnrafifah366@gmail.com">stnrafifah366@gmail.com</a>
+      <p>Designed with 💙 by Sitti Nur Afifah | 2025</p>
+    </div>
+  </footer></body>
+</html>
